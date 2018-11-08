@@ -1,1 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>官方商城</title>
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css.css" rel="stylesheet">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="case container">
+	<!--轮播-->
+		
+    <!--导航-->
+		<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="assets/slide1.jpg" alt="First slide">
+            <div class="carousel-caption">标题 1</div>
+        </div>
+        <div class="item">
+            <img src="assets/slide2.jpg" alt="Second slide">
+            <div class="carousel-caption">标题 2</div>
+        </div>
+        <div class="item">
+            <img src="assets/slide3.jpg" alt="Third slide">
+            <div class="carousel-caption">标题 3</div>
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+	</div>
+		   <div class="row">
+			   <div class="col-xs-4 col-sm-4 col-md-4">
+					<a href="#shouji">
+				   <img src='assets/phone2.png' class="img-circle" width='100%' height='100%'>
+				   <h3>手机数码</h3>
+				   </a>
+			   </div>
+			   <div class="col-xs-4 col-sm-4 col-md-4">
+			    <a href="#jiadian">
+				   <img src='assets/dianqi.png' class="img-circle" width='100%' height='100%'>
+				   <h3>家用电器</h3>
+				</a>
+			   </div>
+			   <div class="col-xs-4 col-sm-4 col-md-4">
+				<a href="#diannao">
+				   <img src='assets/computer.png' class="img-circle" width='100%' height='100%'>
+				   <h3>电脑办公</h3>
+				</a>
+			   </div>
+			   
+		   </div>
+		   <div class="row">
+				<div class="col-xs-4 col-sm-4 col-md-4 juzhong">
+				<a href="#shenghuo">
+				   <img src='assets/hotel.png' class="img-circle" width='100%' height='100%'>
+				   <h3>生活旅行</h3>
+				</a>
+			   </div>
+			   <div class="col-xs-4 col-sm-4 col-md-4 juzhong">
+				<a href="#chaoshi">
+				   <img src='assets/book.png' class="img-circle" width='100%' height='100%'>
+				   <h3>网上超市</h3>
+				</a>
+			   </div>
+			   <div class="col-xs-4 col-sm-4 col-md-4 juzhong">
+			    <a href="#huangjin">
+				   <img src='assets/zhongbiao.png' class="img-circle" width='100%' height='100%'>
+				   <h3>黄金珠宝</h3>
+				</a>
+			   </div>
+		   </div>
+		   <div class="row">
+				<a id="shouji"><h2>手机</h2></a>
+				<a href='https://www.vmall.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/huawei.jpg' width='100%' height='100%'>
+					   <h3>华为商城</h3>
+					</div>
+				</a>
+				<a href='https://www.apple.com/cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/apple.jpg' width='100%' height='100%'>
+					   <h3>苹果官网</h3>
+					</div>
+				</a>
+				<a href='https://www.mi.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/xiaomi.jpg' width='100%' height='100%'>
+					   <h3>小米官网</h3>
+					</div>
+				</a>
+				<a href='https://www.smartisan.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/chuizi.jpg' width='100%' height='100%'>
+					   <h3>锤子官网</h3>
+					</div>
+				</a>
+				<a href='https://www.oppo.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/oppo.jpg' width='100%' height='100%'>
+					   <h3>OPPO官网</h3>
+					</div>
+				</a>
+				<a href='https://www.vivo.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/vivo.jpg' width='100%' height='100%'>
+					   <h3>VIVO官网</h3>
+					</div>
+				</a>
+				<a href='https://store.meizu.com/index.html' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/meizu.jpg' width='100%' height='100%'>
+					   <h3>魅族官网</h3>
+					</div>
+				</a>
+				<a href='https://store.oneplus.com/cn' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/yijia.jpg' width='100%' height='100%'>
+					   <h3>一加官网</h3>
+					</div>
+				</a>
+				<a href='https://www.samsungshop.com.cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/sanxing.jpg' width='100%' height='100%'>
+					   <h3>三星官网</h3>
+					</div>
+				</a>
+				<a href='http://www.nubia.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/nubiya.jpg' width='100%' height='100%'>
+					   <h3>努比亚官网</h3>
+					</div>
+				</a>
+				<a href='http://www.honor.cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/huawei.jpg' width='100%' height='100%'>
+					   <h3>荣耀官网</h3>
+					</div>
+				</a>
+		   </div>
+		   <div class="row">
+				<a id="diannao"><h2>电脑</h2></a>
+				<a href='https://www.dell.com/zh-cn/shop' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/daier.jpg' width='100%' height='100%'>
+					   <h3>戴尔官网</h3>
+					</div>
+				</a>
+				<a href='https://www.hpstore.cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/hp.jpg' width='100%' height='100%'>
+					   <h3>惠普官网</h3>
+					</div>
+				</a>
+				<a href='https://shop.lenovo.com.cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/lianxiang.jpg' width='100%' height='100%'>
+					   <h3>联想官网</h3>
+					</div>
+				</a>
+				<a href='https://thinkpad.lenovo.com.cn/thinkshop_index.html' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/thinkpad.png' width='100%' height='100%'>
+					   <h3>ThinkPad官网</h3>
+					</div>
+				</a>
+				<a href='https://www.asus.com.cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/huashuo.jpg' width='100%' height='100%'>
+					   <h3>华硕官网</h3>
+					</div>
+				</a>
+				<a href='https://www.acer.com.cn/index.html' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/hongji.jpg' width='100%' height='100%'>
+					   <h3>宏基官网</h3>
+					</div>
+				</a>
+				<a href='https://www.samsung.com/cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/sanxing.jpg' width='100%' height='100%'>
+					   <h3>三星官网</h3>
+					</div>
+				</a>
+				<a href='http://www.leishen.cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/leishen.jpg' width='100%' height='100%'>
+					   <h3>雷神官网</h3>
+					</div>
+				</a>
+		   </div>
+		   
+			<!--家电-->
+			<div class="row">
+				<a id="jiadian"><h2>家电</h2></a>
+				<a href='https://www.hisense.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/haixin.jpg' width='100%' height='100%'>
+					   <h3>海信商城</h3>
+					</div>
+				</a>
+				<a href='https://www.hisense.com/special_activity_page/ronshen.html' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/rongsheng.jpg' width='100%' height='100%'>
+					   <h3>容声官网</h3>
+					</div>
+				</a>
+				<a href='http://www.ehaier.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/haier.jpg' width='100%' height='100%'>
+					   <h3>海尔官网</h3>
+					</div>
+				</a>
+				<a href='https://www.midea.cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/meidi.jpg' width='100%' height='100%'>
+					   <h3>美的商城</h3>
+					</div>
+				</a>
+				<a href='http://mall.gree.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/geli.jpg' width='100%' height='100%'>
+					   <h3>格力官网</h3>
+					</div>
+				</a>
+				<a href='http://www.tcl.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/tcl.jpg' width='100%' height='100%'>
+					   <h3>TCL官网</h3>
+					</div>
+				</a>
+				<a href='http://cn.changhong.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/changhong.jpg' width='100%' height='100%'>
+					   <h3>长虹官网</h3>
+					</div>
+				</a>
+				<a href='http://www.supor.com.cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/suboer.jpg' width='100%' height='100%'>
+					   <h3>苏泊尔官网</h3>
+					</div>
+				</a>
+		   </div>
+		   <!--服装鞋帽-->
+			<div class="row">
+				<a id="shenghuo"><h2>酒店住宿</h2></a>
+				<a href='http://www.bthhotels.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/rujia.jpg' width='100%' height='100%'>
+					   <h3>如家酒店</h3>
+					</div>
+				</a>
+				<a href='http://www.huazhu.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/hanting.jpg' width='100%' height='100%'>
+					   <h3>汉庭酒店</h3>
+					</div>
+				</a>
+				<a href='http://www.plateno.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/7day.jpg' width='100%' height='100%'>
+					   <h3>7天酒店</h3>
+					</div>
+				</a>
+				<a href='http://www.orangehotel.com.cn/Brand/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/juzi.jpg' width='100%' height='100%'>
+					   <h3>桔子酒店</h3>
+					</div>
+				</a>
+				<a href='http://www.podinns.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/buding.jpg' width='100%' height='100%'>
+					   <h3>布丁酒店</h3>
+					</div>
+				</a>
+				<a href='http://www.bthhotels.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/motai.jpg' width='100%' height='100%'>
+					   <h3>莫泰酒店</h3>
+					</div>
+				</a>
+				<a href='http://www.jinjianginns.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/jinjiangzhixing.jpg' width='100%' height='100%'>
+					   <h3>锦江之星</h3>
+					</div>
+				</a>
+			</div>
+			<div class="row">
+				<a id="chaoshi"><h2>网上超市</h2></a>
+				<a href= 'http://www.metromall.cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/maidelong.jpg' width='100%' height='100%'>
+					   <h3>麦德龙</h3>
+					</div>
+				</a>
+				<a href= 'http://www.carrefour.cn' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/jialefu.jpg' width='100%' height='100%'>
+					   <h3>家乐福</h3>
+					</div>
+				</a>
+				<a href= 'http://www.samsclub.cn' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/sam.jpg' width='100%' height='100%'>
+					   <h3>山姆会员</h3>
+					</div>
+				</a>
+				<a href= 'http://www.yinzuo100.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/yinzuo.png' width='100%' height='100%'>
+					   <h3>银座超市</h3>
+					</div>
+				</a>
+				<a href= 'https://www.ikea.cn/cn/zh/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/yijia.png' width='100%' height='100%'>
+					   <h3>宜家家居</h3>
+					</div>
+				</a>
+			</div>
+			<div class="row">
+				<a id="huangjin"><h2>珠宝黄金</h2></a>
+				<a href= 'https://www.ctfmall.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/zhoudafu.jpg' width='100%' height='100%'>
+					   <h3>周大福</h3>
+					</div>
+				</a>
+				<a href= 'http://cn.chowsangsang.com/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/zhoushengsheng.png' width='100%' height='100%'>
+					   <h3>周生生</h3>
+					</div>
+				</a>
+				<a href= 'http://www.laomiao.com.cn/' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/laomiao.png' width='100%' height='100%'>
+					   <h3>老庙</h3>
+					</div>
+				</a>
+				<a href= 'https://www.cartier.cn/?utm_source=baidu&utm_medium=brandzone&utm_content=pc_mainzone_title' target='_blank'>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 pinpai">
+					   <img src='assets/kadiya.png' width='100%' height='100%'>
+					   <h3>卡地亚</h3>
+					</div>
+				</a>
+			</div>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
